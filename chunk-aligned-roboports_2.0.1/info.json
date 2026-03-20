@@ -1,6 +1,6 @@
 {
   "name": "chunk-aligned-roboports",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "factorio_version": "2.0",
   "title": "Chunk aligned roboports and power poles.",
   "author": "Zmotive, Marximus, Graveeater",
@@ -12,10 +12,10 @@
     "?boblogistics >= 1.1.2",
     "?bobpower >= 1.1.1",
     "?DyCore >= 0.1.3",
-	  "?DyWorld-Dynamics >= 0.2.1",
+    "?DyWorld-Dynamics >= 0.2.1",
     "?DyComPa >= 0.1.6",
     "?industrialrevolution",
     "?Krastorio2",
-    "?cargo-ships"
-  ]
-}
+    "?cargo-ships",
+    "?RoboportBigPole"
+  ]}

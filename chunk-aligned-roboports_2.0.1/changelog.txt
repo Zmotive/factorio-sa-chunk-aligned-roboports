@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 3. 9. 2026
+  Features:
+    - Increased substation wire and supply reach
+    - Added range elongation scaling for lightning arrestors
+
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 3. 4. 2026
   Features:

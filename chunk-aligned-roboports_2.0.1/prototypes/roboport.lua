@@ -1,7 +1,7 @@
 local enableRoboportResize = settings.startup["marximus-chunk-aligned-roboport-enable"].value
 
 local BASE_ROBOPORT_LOGISTIC_RADIUS = 32		-- vanilla default: 25
-local BASE_ROBOPORT_CONSTRUCTION_RADIUS = 64    -- vanilla default: 55
+local BASE_ROBOPORT_CONSTRUCTION_RADIUS = 96    -- vanilla default: 55
 
 local function rescaleRoboportEntity(entity, newLogisticRadius, newConstructionRadius)
   	if enableRoboportResize == true then
@@ -23,6 +23,9 @@ end
 
 rescaleIfFound("roboport",      BASE_ROBOPORT_LOGISTIC_RADIUS    ,      BASE_ROBOPORT_CONSTRUCTION_RADIUS)
 rescaleIfFound("robotower",     BASE_ROBOPORT_LOGISTIC_RADIUS / 2,      0)
+
+-- Roboport BigPole
+rescaleIfFound("roboport-p",    BASE_ROBOPORT_LOGISTIC_RADIUS    ,      BASE_ROBOPORT_CONSTRUCTION_RADIUS)
 
 if mods['Krastorio2'] then
     -- default sizes are
